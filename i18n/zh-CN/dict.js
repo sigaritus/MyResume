@@ -4,6 +4,8 @@ module.exports = {
     },
     skill_type: {
         "frontend": "Web 前端",
+		"java": "JAVA",
+		"android": "ANDROID",
         "backend": "Web 后端",
         "miscellaneous": "其他"
     },
