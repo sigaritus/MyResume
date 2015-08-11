@@ -29,14 +29,14 @@
 
   }, {
     "type": "pdf",
-    "url": ""
+    "url": "static/sigaritus.pdf"
 
   }, {
     "type": "zhihu",
-    "url": ""
+    "url": "http://www.zhihu.com/people/sigaritus"
   }, {
     "type": "doubanbook",
-    "url": ""
+    "url": "http://www.douban.com/people/73340766/"
   }],
   "education": [{
     "type": "undergraduate",
