@@ -1,0 +1,173 @@
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "马寅达 - 个人简历",
+  "name": "马寅达",
+  "repo": "https://github.com/joyeecheung/resume.git",
+  "job_description": ["Android工程师", "软件工程师"],
+  "contact": {
+    "phone": "15334547667",
+    "email": "sigaritus@163.com",
+    "wechat": {
+      "id": "hello_sino",
+      "qrcode": "static/wechat.svg"
+    },
+    "sinaweibo": {
+      "id": "_oOTTOo_",
+      "url": "http://weibo.com/1736355757"
+    },
+    "github": {
+      "id": "sigaritus"
+    },
+    "blog": {
+      "url": "http://sigaritus.github.io/"
+    }
+  },
+   "links": [{
+    "type": "repo",
+    "url": "https://github.com/joyeecheung/resume"
+
+  }, {
+    "type": "pdf",
+    "url": "static/joyeecheung.pdf"
+
+  }, {
+    "type": "zhihu",
+    "url": "http://www.zhihu.com/people/zhang-qiu-yi-27/"
+  }, {
+    "type": "doubanbook",
+    "url": "http://book.douban.com/people/joyee-cheung/"
+  }],
+  "education": [{
+    "type": "undergraduate",
+    "name": "西南大学",
+    "major": "软件工程",
+    "start": "2012",
+    "end": "2016",
+    "honor": [
+      "2012 - 2013 学年度**国家励志奖学金**",
+      "2013 - 2014 学年度校**一等奖学金**"
+    ]
+  }],
+  "language": [{
+    "type": "english",
+    "certificate": [{
+      "type": "CET-4",
+      "full": "750",
+      "score": "623"
+    }, {
+      "type": "CET-6",
+      "full": "750",
+      "score": "539"
+    }],
+    "description": [
+      "能阅读英文专业书籍、文档及其他资料",
+      "能够在英文邮件列表、Github等社区正常交流"
+    ]
+  }],
+  "experience": [{
+    "type": "internship",
+    "techtype": "Android",
+    "place": "重庆方物科技",
+    "start": "2014.11",
+    "end": "2014.12",
+    "name": "Android 开发",
+    "description": [
+      "使用高德SDK实现定位，用户信息即时显示",
+      "使用HttpClient进行网络访问",
+      "实现不同屏幕尺寸的Drawable适配"
+    ],
+    "stack": ["Drawable适配", "HttpClient", "高德SDK"]
+  }, {
+    "type": "internship",
+    "techtype": "Android",
+    "place": "远景能源软件研发中心(上海)",
+    "start": "2015.07",
+    "end": "至今",
+    "name": "Android开发",
+    "description": [
+      "参与公司业务app的开发负责性能测试与优化",
+      "实现自定义View与ViewGroup，使用抽象布局，减少视图层次和冗余布局，解决过度绘制",
+      "使用Battery-Historian调研App耗电量，使用Monkey，MonkeyRunner对App进行测试"
+    ],
+    "stack": ["自定义View", "ViewGroup", "抽象布局", "Battery-Historian", "Monkey","MonkeyRunner"]
+  },
+  {
+    "type": "project",
+    "techtype": "android",
+    "project_type": "personal",
+    "name": "HackerNews Client",
+    "source": "https://github.com/sigaritus/HackerNews",
+    "description": [
+      "网站hackernews的android客户端",
+      "网络请求框架使用Retrofit+OKHttp",
+      "使用RecyclerView,FAB等支持Material Design的新控件",
+	  "实现可复用的自定义View"
+    ],
+    "stack": ["Retrofit", "OHHttp", "RecyclerView","Material Design"]
+  }, {
+    "type": "project",
+    "techtype": "android",
+    "project_type": "personal",
+    "name": "咏诵",
+    "source": "https://github.com/sigaritus/RecitePoems",
+    "description": [
+      "一个古诗学习的应用，支持朗读，测试，制定学习计划，查询功能",
+      "使用ViewPager实现功能模块切换",
+      "使用RecyclerView展示每个显示古诗单元",
+      "使用讯飞API实现古诗朗读"
+    ],
+    "stack": ["讯飞API", "ViewPager", "RecyclerView"]
+  }, {
+    "type": "project",
+    "techtype": "android",
+    "project_type": "personal",
+    "name": "speak2me",
+    "description": [
+      "一个简单的英语学习应用，主要功能有原文朗读，跟读打分，单词查询，单词本，学习数据统计",
+      "朗读功能使用讯飞API实现",
+      "单词查询依赖有道API，后期改为扇贝API",
+	  "数据统计使用图表框架MPAChart实现"
+    ],
+    "stack": ["讯飞API", "有道API", "扇贝API","MPAChart"]
+  }],
+  "skills": [{
+    "type": "java",
+    "item": [{
+      "summary": "Java语言基础",
+      "description": [
+        "熟悉 `面向对象` 基本思想",
+        "熟悉JAVA语言的基础知识和特性及核心类库"
+      ]
+    }, {
+      "summary": "Java Web",
+      "description": [
+        "了解 `Spring MVC` ，`Hibernate` 框架及 `MySQL` 数据库",
+        "能利用上述框架实现简单的 `RESTful` 的后端"
+      ]
+    }]
+  }, {
+    "type": "android",
+    "item": [{
+      "summary": "控件",
+      "description": [
+	    "掌握常见控件的使用方法",
+        "能够根据实际需要构建 `自定义View` 及 `ViewGroup` ",
+        "能使用抽象布局减少视图层级减少过度绘制"
+      ]
+    }, {
+      "summary": "其他",
+      "description": [
+        "能使用 `Handler` ，`AsyncTask` ， `Loader` 等异步更新UI",
+        "使用过 `Volley` ，`Retrofit` ，`AsyncClient` 等网络请求框架，了解Http协议",
+        "使用过 `LitePal` 等 `ORM` 框架"
+      ]
+    }]
+  }, {
+    "type": "miscellaneous",
+    "item": [
+      "能够使用`Markdown` 编写技术文档",
+      "日常使用 `Git` 与 `Android Studio` 进行开发"
+    ]
+  }]
+}
